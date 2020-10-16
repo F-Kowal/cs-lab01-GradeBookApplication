@@ -126,7 +126,7 @@ __Note:__ This isn't the only way to accomplish implementation, however; this is
 	- [X] Make the `BaseGradeBook` class abstract
 		- [X] Add the `abstract` keyword to the `BaseGradeBook` declaration.
 
-- [ ] Add support for weighted GPAs
+- [X] Add support for weighted GPAs
 	- [X] Add `IsWeighted` property to `BaseGradeBook`
 		- [X] Create a new `bool` property named `IsWeighted` in `BaseGradeBook`
 			- This should use the public access modifier.
@@ -154,11 +154,11 @@ __Note:__ This isn't the only way to accomplish implementation, however; this is
 			- This should use `parts[3]` for the last parameter where the gradebooks are instantiated.
 			- Update the message provided by this condition to write to the console "Command not valid, Create requires a name, type of gradebook, if it's weighted (true / false).".
 
-	- [ ] Update `BaseGradeBook.GetGPA`
-		- [ ] Add 1 point to GPA when student is `Honors` or `DualEnrolled`
+	- [X] Update `BaseGradeBook.GetGPA`
+		- [X] Add 1 point to GPA when student is `Honors` or `DualEnrolled`
 
-	- [ ] Update `HelpCommand`
-		- [ ] Change where the `HelpCommand` outlines the "create" command to say "Create 'Name' 'Type' 'Weighted' - Creates a new gradebook where 'Name' is the name of the gradebook, 'Type' is what type of grading it should use, and 'Weighted' is whether or not grades should be weighted (true or false)."
+	- [X] Update `HelpCommand`
+		- [X] Change where the `HelpCommand` outlines the "create" command to say "Create 'Name' 'Type' 'Weighted' - Creates a new gradebook where 'Name' is the name of the gradebook, 'Type' is what type of grading it should use, and 'Weighted' is whether or not grades should be weighted (true or false)."
 
 ## What Now?
 
